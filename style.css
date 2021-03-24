@@ -1,0 +1,66 @@
+.container {
+    position: relative;
+    background-color: white;
+    width: 800px;
+    height: 400px;
+    margin: 85px auto;
+    border: solid 4px rgb(190, 201, 212);
+}
+
+.topbanner {
+    margin-top: 0px;
+    margin-right: 0px;
+    width: 700px;
+    border: 50px solid rgb(8, 162, 182)
+} 
+
+.content {
+    margin: 0px;
+    width: 600 px;
+    font-family: cursive;
+}
+
+h1, h2, h3, h4{
+    margin: 0px;
+    margin-left: 40px;
+}
+
+h1{
+    margin-top: 70px;
+    font-size: 2.5rem;
+}
+
+h2 {
+    margin-top: 10px;
+    display: flex;
+}
+
+    h3 {
+    font-size: 1.2rem;
+}
+
+h3 {
+    margin-top:12px;
+}
+
+h4 {
+    display: flex;
+    color: blue;
+    font-size: 1.1rem;
+    text-decoration: underline ;
+}
+
+.me {
+    object-fit: cover;
+    border: solid 4px rgb(190, 201, 212);
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    position: absolute;
+    top: 45px;
+    left: 50px;
+}
+
+.loc, .cog {
+    margin-right: 15px;
+}
