@@ -1,51 +1,65 @@
+*{
+    font-family: cursive;
+    margin: 0px;
+    padding: 0px;
+}
+
+.overall {
+    display: flex;
+    width:fit-content;
+    height: 600px;
+}
+
 .container {
+    display: flexbox;
     position: relative;
     background-color: white;
-    width: 800px;
+    width: 500px;
     height: 400px;
-    margin: 85px auto;
+    margin-top: 79px;
+    margin-left: 115px;
+    margin-right: 25px;
+    margin-bottom: 60px;
     border: solid 4px rgb(190, 201, 212);
 }
 
 .topbanner {
     margin-top: 0px;
     margin-right: 0px;
-    width: 700px;
+    width: 100%px;
     border: 50px solid rgb(8, 162, 182)
 } 
 
 .content {
-    margin: 0px;
+    margin-bottom: 80px;
     width: 600 px;
-    font-family: cursive;
 }
 
-h1, h2, h3, h4{
+.container h1, h2, h3, h4{
     margin: 0px;
     margin-left: 40px;
 }
 
-h1{
+.container h1{
     margin-top: 70px;
     font-size: 2.5rem;
 }
 
-h2 {
+.content h2 {
     margin-top: 10px;
     display: flex;
 }
 
-    h3 {
+    .container h3 {
     font-size: 1.2rem;
-}
-
-h3 {
     margin-top:12px;
-}
+    }
 
-h4 {
+
+.container h4 {
     display: flex;
     color: blue;
+    padding-top: 15px;
     font-size: 1.1rem;
     text-decoration: underline ;
 }
@@ -63,4 +77,237 @@ h4 {
 
 .loc, .cog {
     margin-right: 15px;
+}
+
+
+.topbar {
+    display: flex;
+    justify-content: space-around;
+    align-content:center;
+    background-color: black;
+    color:rgb(190, 201, 212);
+    height: 50px;
+    padding-top: 20px;
+}
+
+.topbar .profile {
+    margin-left: 80px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+#lists{
+    display: flex;
+}
+#lists li {
+    position: relative;
+    justify-content: space-around;
+    color:rgb(190, 201, 212);
+    align-items: center;
+    padding: 0px 20px;
+    margin: 0px 0px 12px 0px;
+} 
+
+li{
+    text-decoration: none;
+    display: flex;
+    padding: 20px 30px 10px 20px;
+}
+
+.topbar .signOut {
+    background-color: rgb(8, 162, 182);
+    color:white;
+    position: relative;
+    height:fit-content;
+    padding: 5px 10px;
+    margin-left: 200px;
+    margin-right: 80px;
+}
+
+.education h1{
+    background-color: grey;
+    color:rgb(190, 201, 212) 
+    width: 100%;
+    margin-left: 0px;
+    border
+}
+
+.rightContainer{
+    position: relative;
+    display: flexbox;
+    margin-top: 79px;
+    width: 400px;
+}
+.connections{
+    position: relative;
+    display: flexbox;
+    border: solid 4px rgb(190, 201, 212);
+    width: 300px;
+    margin-bottom: 30px;
+}
+.connections h1 {
+    display: flex;
+    background-color: gray;
+    color: whitesmoke;
+    width: 280px;
+    padding: 10px;
+    font-size: 20px;
+    justify-content: center;
+}
+.connections h2 {
+    display: flexbox;
+    align-items:center;
+    justify-content: space-around;
+    margin: 20px 30px 14px 60px;
+}
+
+.yourCons {
+    display: flexbox;
+    width: 300px;
+    border: solid 4px rgb(190, 201, 212);
+}
+
+.yC h1 {
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+    color:rgb(190, 201, 212);
+    font-size: 20px;
+    padding: 10px;
+}
+.yC h3{
+    display: flexbox;
+    color: blue;
+    padding-left: 15px;
+    text-decoration: underline;
+    line-height: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 4px rgb(190, 201, 212)solid;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    margin-left: 0;
+}
+
+.education {
+    border: solid 4px rgb(190, 201, 212);
+}
+
+.education h1 {
+    margin-top: 0px;
+    color: rgb(190, 201, 212);
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 38px;
+}
+
+.education h2{
+    padding-top: 15px;
+}
+
+.education h3{
+    color:rgb(190, 201, 212);
+}
+
+.education h4{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.peoplePics img{
+    height: 40px;
+    border-radius: 20px;
+}
+
+.adrien {
+    position: absolute;
+    top: 420px;
+    left: 658px;
+}
+
+.alayne {
+    position: absolute;
+    top: 546px;
+    left: 658px;
+}
+
+.anne {
+    position: absolute;
+    top: 484px;
+    left: 658px;
+}
+
+.arry {
+    position: absolute;
+    left:658px;
+    top: 608px;
+}
+
+.phil {
+    position: absolute;
+    left: 658px;
+    top:270px;
+}
+
+.todd {
+    position: absolute;
+    left: 658px;
+    top: 217px;
+}
+
+.icons img{
+    position:absolute;
+    height: 30px;
+}
+
+.ac1 {
+    position: absolute;
+    top: 280px;
+    left: 860px;
+}
+
+.ac2 {
+    position: absolute;
+    top: 225px;
+    left: 860px;
+}
+
+.x1 {
+    position: absolute;
+    top: 280px;
+    left: 905px;
+}
+
+.x2 {
+    position: absolute;
+    top: 225px;
+    left: 905px;
+}
+
+.reqnum {
+    background-color: lightgray;
+    color: black;
+    font-weight: bold;
+    height: 30px;
+    width: 20px;
+    border-radius:50%;
+    padding-left: 9px;
+    padding-right: 2px;
+    font-size: 20px;
+    margin-right:20px;
+}
+
+.peeps{
+    background-color: lightgray;
+    color: black;
+    font-weight: bold;
+    height: 30px;
+    width: 40px;
+    border-radius:50%;
+    padding-left: 7px;
+    padding-right: 2px;
+    font-size: 20px;
+    margin-right:20px;
 }
